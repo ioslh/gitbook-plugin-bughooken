@@ -1,5 +1,23 @@
 require(['gitbook', 'jquery'],function( gitbook, $){
     var CONFIG = {};
+    function getCookie( name ){
+        var nameEQ = name + '=';
+        var cookies = document.cookie.split(';');
+        var cookie;
+
+        for (var i = 0; i < cookies.length; i++) {
+            cookie = cookies[i];
+
+            while ( cookie.charAt(0) == ' ') {
+                cookie = cookie.substring(1, cookie.length);
+            }
+
+            if (cookie.indexOf(nameEQ) == 0) {
+                return cookie.substring(nameEQ.length, cookie.length);
+            }
+        }
+        return null;
+    }
 
     function initUser(){
         if( !CONFIG.userApi ){
