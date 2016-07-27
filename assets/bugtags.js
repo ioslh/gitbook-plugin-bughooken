@@ -58,6 +58,12 @@ require(['gitbook', 'jquery'],function( gitbook, $){
         $bookBody.css( 'height', gH - 50 )
     }
 
+    function resetGoogleAnalytic(){
+        if( ga ){
+            ga( 'send', 'pageview', document.location.pathname )
+        }
+    }
+
     gitbook.events.on('start',function(e, config){
         CONFIG = config.bughooken || {}
         initUser();
@@ -65,5 +71,6 @@ require(['gitbook', 'jquery'],function( gitbook, $){
 
     gitbook.events.on('page.change',function(){
         resetContainerHeight()
+        resetGoogleAnalytic()
     })
 })
