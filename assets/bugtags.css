@@ -162,9 +162,9 @@ header .header-inner .logo a {
   display: inline-block;
 }
 header .header-inner .logo a i {
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 12px;
   display: inline-block;
 }
 header .header-inner .global-nav {
@@ -231,15 +231,17 @@ header .header-inner .global-nav ul li a:hover {
   display: inline-block;
 }
 .book-summary .thanks .logo a i {
-  font-size: 35px;
+  font-size: 20px;
   color: #007feb;
 }
 .book-summary .thanks .logo a.gitbook {
   position: relative;
   font-size: 15px;
 }
-.book-summary .thanks .logo a.gitbook img {
-  height: 20px;
+.book-summary .thanks .logo a.gitbook top:-3px img {
+  width: 20px;
+  position: relative;
+  top: 4px;
 }
 .comments-area {
   margin-top: 50px;
