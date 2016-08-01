@@ -237,8 +237,9 @@ header .header-inner .global-nav ul li a:hover {
 .book-summary .thanks .logo a.gitbook {
   position: relative;
   font-size: 15px;
+  top: -3px;
 }
-.book-summary .thanks .logo a.gitbook top:-3px img {
+.book-summary .thanks .logo a.gitbook img {
   width: 20px;
   position: relative;
   top: 4px;
