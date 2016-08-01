@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('//dn-bts.qbox.me/home/fonts/icomoon.eot?-a5xwvy');
-  src: url('//dn-bts.qbox.me/home/fonts/icomoon.eot?#iefix-a5xwvy') format('embedded-opentype'), url('//dn-bts.qbox.me/home/fonts/icomoon.ttf?-a5xwvy') format('truetype'), url('//dn-bts.qbox.me/home/fonts/icomoon.woff?-a5xwvy') format('woff'), url('//dn-bts.qbox.me/home/fonts/icomoon.svg?-a5xwvy#icomoon') format('svg');
+  src: url('https://static.bugtags.io/home/fonts/icomoon.eot?jmoxvs');
+  src: url('https://static.bugtags.io/home/fonts/icomoon.eot?#iefixjmoxvs') format('embedded-opentype'), url('https://static.bugtags.io/home/fonts/icomoon.ttf?jmoxvs') format('truetype'), url('https://static.bugtags.io/home/fonts/icomoon.woff?jmoxvs') format('woff'), url('https://static.bugtags.io/home/fonts/icomoon.svg?jmoxvs#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,8 +19,41 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-logo-en:before {
-  content: "\e97e";
+.icon-logo-h:before {
+  content: "\e904";
+}
+.icon-feature:before {
+  content: "\e908";
+}
+.icon-linkedin:before {
+  content: "\e909";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-stackoverflow:before {
+  content: "\e905";
+}
+.icon-twitter:before {
+  content: "\e906";
+}
+.icon-location:before {
+  content: "\e932";
+}
+.icon-feedback:before {
+  content: "\e93d";
+}
+.icon-phone:before {
+  content: "\e90a";
+}
+.icon-email:before {
+  content: "\e90c";
+}
+.icon-users:before {
+  content: "\e914";
+}
+.icon-help:before {
+  content: "\e920";
 }
 .icon-js-sdk:before {
   content: "\e902";
@@ -88,26 +121,11 @@
 .icon-user:before {
   content: "\e90d";
 }
-.icon-help:before {
-  content: "\e91f";
-}
 .icon-git-hub:before {
   content: "\e603";
 }
-.icon-qq:before {
-  content: "\e608";
-}
-.icon-wechat:before {
-  content: "\e60b";
-}
-.icon-weibo:before {
-  content: "\e60c";
-}
 .icon-logo:before {
   content: "\e600";
-}
-.icon-logo-o:before {
-  content: "\e607";
 }
 .icon-player:before {
   content: "\e97a";
@@ -144,9 +162,9 @@ header .header-inner .logo a {
   display: inline-block;
 }
 header .header-inner .logo a i {
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
 }
 header .header-inner .global-nav {
@@ -222,10 +240,6 @@ header .header-inner .global-nav ul li a:hover {
 }
 .book-summary .thanks .logo a.gitbook img {
   height: 20px;
-  position: relative;
-  top: 0;
-  left: 10px;
-  display: block;
 }
 .comments-area {
   margin-top: 50px;
