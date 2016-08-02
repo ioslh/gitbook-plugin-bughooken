@@ -8,7 +8,7 @@
     "SUMMARY_INTRODUCTION": "Introduction",
     "SUMMARY_TOGGLE": "Table of Contents",
     "SEARCH_TOGGLE": "Search",
-    "SEARCH_PLACEHOLDER": "Type to Search",
+    "SEARCH_PLACEHOLDER": "Search",
     "SEARCH_RESULTS_TITLE": "<span class='search-results-count'></span> results matching \"<span class='search-query'></span>\"",
     "SEARCH_NO_RESULTS_TITLE": "No results matching \"<span class='search-query'></span>\"",
     "FONTSETTINGS_TOGGLE": "Font Settings",
