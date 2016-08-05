@@ -7,7 +7,7 @@ pre {
 }
 p code {
   font-weight: bold;
-  color: #a52a2a;
+  color: #a52a2a !important;
 }
 @font-face {
   font-family: 'icomoon';

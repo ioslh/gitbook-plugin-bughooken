@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-bughooken",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "engines": {
     "gitbook": ">=3.0.0"
   },
